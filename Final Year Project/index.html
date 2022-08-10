@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Readables | Main</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!--- Navigation menu --->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">Readables</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item"><a href="#home" class="navbar__links" id="home-page">Home</a></li>
+        <li class="navbar__item"><a href="#about" class="navbar__links" id="about-page">About</a></li>
+        <li class="navbar__item"><a href="#genre" class="navbar__links" id="genre-page">Genre</a></li>
+        <li class="navbar__item"><a href="#fiction" class="navbar__links" id="fiction-page">Fiction/Non-Fiction</a></li>
+        <li class="navbar__item"><a href="#length" class="navbar__links" id="length-page">Length</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--- Home --->
+  <div class="heading" id="home">
+    <div class="heading__container">
+      <h1 class="heading__heading">
+        <span1>Making Great Reads More</span1><br><span>Readable</span>
+      </h1>
+      <p class="heading__description">Enter a world of your imagination</p>
+      <p class="heading__paragraph">Bringing the world together through reading</p>
+      <button class="main__button"><a href="#about">Explore</a></button>
+    </div>
+  </div>
+
+  <!--- About --->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img__container">
+        <div class="main__img__card"><img src="images\Readables.png" alt=""></div>
+      </div>
+      <div class="main__content">
+        <h1>what do we do here?</h1>
+        <h2>Accessable Reading For Everyone</h2>
+        <p>A good book has the ability to transform you into a whole new world, the ability to change your whole way of thinking or just entertain you for hours.
+          With how the world is developing reading is slowly becoming a lost art.
+          Less and less children and young adults are reading.
+          At Readables we believe that reading has a whole multitude of benefits on the human brain and want to encourage as many people to start reading again.</p>
+        <p>To do this we have created this hub in which you new readers can utilise to find books that you might enjoy.
+          By doing this we believe that you will find an easier time getting back into reading as you will have a better understanding of what kind of books you might enjoy</p>
+        <button class="main__button"><a href="#genre">Genres</a></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Genre -->
+  <div class="main" id="genre">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>Choose Your Favourite</h1>
+        <h2>Genre</h2>
+        <button class="main__button"><a href="\Genres\Thriller.html">Thriller</a></button>
+        <button class="main__button"><a href="\Genres\Romance.html">Romance</a></button>
+        <button class="main__button"><a href="\Genres\Fantasy.html">Fantasy</a></button>
+        <p>To get you started in your journey, choose one of these three popular genres. These are some of the most popular genres, Inside each genre there is something for everyone.</p>
+      </div>
+      <div class="main__img__container">
+        <div class="main__img__card"><img src="images\Genres.webp" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+  <!--- Fiction / Non-Fiction --->
+  <div class="main" id="fiction">
+    <div class="main__container">
+      <div class="main__img__container">
+        <div class="main__img__card"><img src="images\fiction-vs-nonfiction.png" alt=""></div>
+      </div>
+      <div class="main__content">
+        <h1>Chooose Between</h1>
+        <h2>Fiction or Non-Fiction</h2>
+        <p>Realism or fantasy? Get lost in a whole new world or read about something that happened in ours? The choice is yours!</p>
+        <button class="main__button"><a href="\Fiction\Fiction.html">Take a Look</a></button
+      </div>
+    </div>
+  </div>
+
+  <!--- Length --->
+  	<div class="main" id="length">
+  		<div class="main__container">
+  			<div class="main__content">
+  				<h1>Choose Your Ideal</h1>
+  				<h2>Length of Book</h2>
+  				<p>Are you looking for a quick read? or something that will grip your attention for a little bit longer?</p>
+  				<button class="main__button"><a href="\Length\Length.html">Take a look</a></button>
+  			</div>
+        <div class="main__img__container">
+  				<div class="main__img__card"><img src="images\Length.png" alt=""></div>
+  		</div>
+  	</div>
+    </div>
+
+
+  <!-- Footer -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__links__wrapper">
+        <div class="footer__links__items">
+          <a href="#genre"><h2>Genres</h2></a>
+          <a href="\Genres\Thriller.html">Thriller</a>
+          <a href="\Genres\Romance.html">Romance</a>
+          <a href="\Genres\Fantasy.html">Fantasy</a>
+        </div>
+      </div>
+      <div class="footer__links__wrapper">
+        <div class="footer__links__items">
+          <a href="#fiction"><h2>Fiction / Non-Fiction</h2></a>
+          <a href="\Fiction\Fiction.html">Fiction vs <br> Non-Fiction</a>
+        </div>
+        <div class="footer__links__items">
+          <a href="#length"><h2>Length</h2></a>
+          <a href="\Length\Length.html">Long vs <br> Short Books</a>
+        </div>
+      </div>
+    </div>
+    <section class="social__media">
+      <div class="social__media__wrap">
+        <div class="footer__logo">
+          <a href="#home" id="footer__logo">Readables</a>
+        </div>
+        <p class="website__rights">© Readables 2022. All rights reserved</p>
+      </div>
+    </section>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
